@@ -20,5 +20,5 @@
         android:layout_toEndOf="@+id/textView"
         android:layout_toRightOf="@+id/textView"
         android:text="ToggleButton" />
-blah blah blah
+blah blah
 </RelativeLayout>
