@@ -4,14 +4,28 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.ToggleButton;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    private ToggleButton myToggleButton;
+    private TextView response;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        response = (TextView) findViewById(R.id.textView);
+        myToggleButton = (ToggleButton) findViewById(R.id.toggleButton);
+        myToggleButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                response.setText("WOW SOMETHING HAPPENED");
+            }
+        });
     }
 
     @Override
