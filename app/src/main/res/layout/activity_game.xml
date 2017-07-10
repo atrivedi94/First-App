@@ -1,9 +1,462 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="com.example.akanksha.firstapp.GameActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:stretchColumns="0,1,2,3,4,5,6,7,8">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/Box00"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box01"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box02"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box03"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box04"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box05"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box06"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box07"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box08"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/Box09"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box10"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box11"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box12"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box13"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box14"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/Box15"
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="1"
+                android:textSize="30dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
